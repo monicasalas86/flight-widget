@@ -8,10 +8,10 @@ const app = express()
 
 app.get('/flights', (req, res) => {
   const options ={
-    url: 'https://1060f78d-1000-4ddd-b722-7d54ec0a4cd4-us-east1.apps.astra.datastax.com/api/rest/v2/namespaces/flights/collections/departures',
+    url: `${process.env.URL}?page-size=6`,
     headers: {
       accept: 'application/json',
-      'X-Cassandra-Token': 'AstraCS:odArAbmjxZjhwkxYvSLtbtZc:8428fbc850c2ffd8647ece24ffe733b7dbc7d03ce2a0a2d607cf7da9b7734e02'
+      'X-Cassandra-Token': process.env.TOKEN
     }
   }
 
