@@ -9,8 +9,8 @@ const TableRow = ({ flight }) => {
   return (
     <tr>
       <td>✈</td>
-      {words?.map((word, index) => (
-        <TableCell key={index} word={word} index={index} />
+      {words?.map((word, _index) => (
+        <TableCell key={_index} word={word} />
       ))}
     </tr>
   )
