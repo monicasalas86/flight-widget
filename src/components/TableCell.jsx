@@ -1,5 +1,5 @@
 
-function TableCell() {
+const TableCell = ()=> {
   return (
     <></>
   )

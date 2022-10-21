@@ -1,5 +1,5 @@
 
-function TableHead() {
+const TableHead = () => {
   return (
     <thead>
       <tr>

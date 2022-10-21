@@ -1,5 +1,5 @@
 
-function TableRow() {
+const TableRow = () => {
   return (
     <></>
   )

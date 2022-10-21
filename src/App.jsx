@@ -1,6 +1,6 @@
 import Table from './components/Table'
 
-function App() {
+const App = () => {
   return (
     <div className='departures'>
       <header>DEPARTURES</header>

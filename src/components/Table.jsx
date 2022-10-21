@@ -1,7 +1,7 @@
 import TableHead from './TableHead'
 import TableBody from './TableBody'
 
-function Table() {
+const Table = () => {
   return (
     <table>
       <TableHead/>
